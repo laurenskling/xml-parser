@@ -119,7 +119,9 @@ function parse(xml) {
     } else {
       var m = match(/^([^<]*)/);
     }
-    if (m) return m[1];
+    if (m) {
+      return m[1].replace('<![CDATA[', '').replace(']]>', '');
+    }
     return '';
   }
 

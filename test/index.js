@@ -56,7 +56,7 @@ it('should support tags with CDATA', function(){
     name: 'foo',
     attributes: {},
     children: [],
-    content: '<![CDATA[hello world]]>'
+    content: 'hello world'
   });
 })
 
@@ -71,7 +71,7 @@ it('should support multi-line CDATA', function() {
     name: 'foo',
     attributes: {},
     children: [],
-    content: '<![CDATA[hello\nworld]]>'
+    content: 'hello\nworld'
   });
 });
 
@@ -132,7 +132,7 @@ it('should support nested tags with CDATA', function(){
       {
         attributes: {},
         children: [],
-        content: '<![CDATA[hello world]]>',
+        content: 'hello world',
         name: 'b'
       }
     ],
