@@ -1,5 +1,5 @@
 {
-  "name": "cdata-xml-parser",
+  "name": "xml-parser",
   "version": "1.2.1",
   "repository": "https://github.com/laurenskling/xml-parser",
   "description": "the little xml parser that could, with CDATA replacement",
